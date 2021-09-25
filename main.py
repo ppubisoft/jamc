@@ -35,7 +35,6 @@ except AttributeError:
     print("Could not get file attributes. Probably isn't an mp3.")
     printattrs = False
 
-
 playback = Playback(cachefile)
 playback.play()
 
